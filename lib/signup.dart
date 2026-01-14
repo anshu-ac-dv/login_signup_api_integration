@@ -17,10 +17,13 @@ class _SignupState extends State<Signup> {
         centerTitle: true,
       ),
       body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.center,
-        children: [],
+        children: [
+          Center(child: Text("Sign Up")),
+        ],
       ),
     );
   }
 }
+
